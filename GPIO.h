@@ -20,15 +20,15 @@
 void setGPIO() {
     
     //TRIS register
-    TRISD1 = 0;
-    TRISD2 = 1;
+    /* TRISD1 = 0; */
+    /* TRISD2 = 1; */
     
-    // ANSEL register
-    ANSD1 = 0;
-    ANSD2 = 0;
+    /* // ANSEL register */
+    /* ANSD1 = 0; */
+    /* ANSD2 = 0; */
     
-    test_pin = 0;
+    /* test_pin = 0; */
     
-    ANSELA = 0x00;
+    /* ANSELA = 0x00; */
     
 }

@@ -11,10 +11,10 @@
 void set_internal_oscillator_with_PLL() {
     // oscillator settings
 
-    OSCCONbits.IRCF = 0b111; // setting internal oscillator to 16Mhz
-    OSCCONbits.SCS = 0b00; // System Clock Select bit, Primary clock, because we want to go throught the PLL multiplexer
+    /* OSCCONbits.IRCF = 0b111; // setting internal oscillator to 16Mhz */
+    /* OSCCONbits.SCS = 0b00; // System Clock Select bit, Primary clock, because we want to go throught the PLL multiplexer */
     
-    PLLEN = 1; // PLL enabled for HFINTOSC (8 MHz and 16 MHz only)
+    /* PLLEN = 1; // PLL enabled for HFINTOSC (8 MHz and 16 MHz only) */
     
 //    // PRISD doesn't fucking matter
 //    PRISD = 1; // Primary Oscillator Drive Circuit Shutdown bit. Oscillator drive circuit off (zero power)
